@@ -1,0 +1,12 @@
+Keegan Fouse
+CS1501 Assignment 1 - De La Brandeis Trie Autocompletion Test
+
+My approach to this project was initially aided by our TA Max,
+I followed his tutorial on building the structure of the DLBNode and Trie 
+for the dictionary, and for simplicity's sake I continued to
+use the DLBTrie as the data structure for storing the users previously entered words.
+Aside from the instruction he provided I added some value and key properties to the 
+DLBNode to try to make it easier when accessing the user history and making predictions
+As for storing the predictions I chose to use an ArrayList because I like the 
+simplicity of adding and getting items, though that doesn't really matter 
+because I couldn't get it to work

@@ -1,0 +1,63 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Keegan Fouse
+
+Lecture section:  SEC1270
+
+Recitation day and time:  Wed 7:50-8:40
+
+Assignment #:  1
+
+Program due date:  9/16/20
+
+Handed in date:  9/16/20
+
+Source code file name(s): DLBNode.java, DLBTrie.java, ac_test.java
+
+
+
+
+
+
+
+Other file name(s) (if relevant):
+
+
+
+
+
+
+
+Does your program run without error?: 
+        
+    -it runs with no errors, but not correctly
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+    -the program will run, accept input, write to the user_history.txt file
+     and display the timing functions. But I can't get the predictions to populate
+     which then throws java.lang.IndexOutOfBoundsException if you type in a number 
+     to select a suggestion
+
+
+
+
+
+
+Additional comments to the grader:
+
+    -i have a series of print statements commented out in the files, you will see 
+     that my trie is being populated correctly if you uncomment them, i just 
+     can't figure how to make the predictions appear
+
+
+
+
+
