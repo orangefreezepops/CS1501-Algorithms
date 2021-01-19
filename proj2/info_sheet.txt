@@ -1,0 +1,61 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Keegan Fouse
+
+Lecture section:  TuTh 14:50
+
+Recitation day and time:  
+
+Assignment #:  2
+
+Program due date:  September 30
+
+Handed in date:  September 28
+
+Source code file name(s): MyLZW.java 
+
+
+
+
+
+Other file name(s) (if relevant):BinaryStdIn.java BinaryStdOut.java
+StdIn.java StdOut.java Queue.java TST.java TSTSB.java LZW.java 
+
+
+
+
+
+
+
+
+
+Does your program run without error?: yes/no
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+it runs without crashing and compresses correctly, except for a few cases:
+in Do-Nothing mode: everything works
+
+in Monitor mode: all.tar only decompresses to 302KB(2960KB), and texts.tar decompresses to 1351(1350KB) 
+
+in Reset mode: all.tar only decompresses to 264KB(2960KB), texts.tar decompresses to 306KB(1350KB), edit.exe only decompresses to 196KB (231KB),
+	large.txt only decompresses to 759KB (1193KB), frosty.jpg only decompresses to 96KB(124KB)
+
+
+
+
+Additional comments to the grader:
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+To implement the Apartment PQ I made an array of Apartment objects for
+both price and size and then 4 hash symbol tables (min (priceIndex, priceCity), max (sizeIndex, sizeCity))
+using SeparateChainingHashST.java class given to us on the class site. I chose this approach because
+they allow the Apartment arrays to be indexable, and also the linked structure of
+the symbol table is ideal for subsets of the apartment PQ allowing for efficient
+retrieval from the entire set and of given cities. Also this way I didn't have to
+implement a whole wad of extra classes and edit them for Apartment objects,
+because the SeparateChainingHashST allows for generic values I could simply pass
+the Apartment objects to it for the Price and Size hash tables and use Integers for the
+indirection index hash tables. It was the simplest approach I could see
+that allowed me to only edit the 3 files AptTracker.java, Apartment.java and AptPQ.java
